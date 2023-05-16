@@ -9,7 +9,7 @@ export default {
 	},
 	css: {
 		name: 'CSS3',
-		class 'css3'
+		class: 'css3'
 	},
 	scss: {
 		name: 'SCSS',
