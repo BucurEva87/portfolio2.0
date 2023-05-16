@@ -1,5 +1,3 @@
-import { javascript, html, css, scss, sass, ruby, rails, react, redux, node } from './tags.js';
-
 export default [
 	{
 		name: 'Conference',
