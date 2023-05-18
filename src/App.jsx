@@ -3,6 +3,7 @@ import Lottie from 'lottie-react'
 import animationData from './assets/woman-sitting-on-the-phone.json'
 import Projects from './components/projects/Projects'
 import ContactForm from './components/contactform/ContactForm'
+import Footer from './components/footer/Footer'
 import './App.scss'
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
           <ContactForm />
         </div>
       </section>
+
+      <Footer />
     </>
   )
 }
