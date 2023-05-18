@@ -22,7 +22,7 @@ body {
 section {
   padding-block: 3rem;
   text-align: justify;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,19 @@ section {
 
     @media (width <= $md) {
       height: 100vh;
+    }
+  }
+
+  &#projects {
+    position: relative;
+
+    @media (width >= $md) {
+      justify-content: flex-end;
+
+      .wrapper {
+        margin: 0;
+        width: 70%;
+      }
     }
   }
 }

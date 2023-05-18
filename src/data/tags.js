@@ -3,11 +3,11 @@ export default {
     name: 'JavaScript',
     class: 'javascript',
   },
-  html: {
+  html5: {
     name: 'HTML5',
     class: 'html5',
   },
-  css: {
+  css3: {
     name: 'CSS3',
     class: 'css3',
   },
@@ -24,19 +24,19 @@ export default {
     class: 'ruby',
   },
   rails: {
-    name: 'Ruby on Rails',
+    name: 'Rails',
     class: 'rails',
   },
   node: {
-    name: 'Node.js',
+    name: 'Node',
     class: 'node',
   },
   react: {
-    name: 'React.js',
+    name: 'React',
     class: 'react',
   },
   redux: {
-    name: 'Redux.js',
+    name: 'Redux',
     class: 'redux',
   },
 };
