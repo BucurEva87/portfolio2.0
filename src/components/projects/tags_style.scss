@@ -4,9 +4,9 @@
   border-radius: 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0.4rem 1rem;
+  padding: 0 1rem;
   color: $black;
-  margin-right: 0.3rem;
+  margin: 0.3rem 0.3rem 0.3rem 0;
   font-size: 1rem;
   cursor: pointer;
 
@@ -47,6 +47,7 @@
   }
 
   &.redux {
+    color: $white;
     background-color: hsl(257, 43%, 48%);
   }
 }

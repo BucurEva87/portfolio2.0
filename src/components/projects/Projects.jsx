@@ -48,11 +48,15 @@ const Projects = () => {
           <p>
             {pr.description}
           </p>
-          <p className="tags">{pr.tags.map(tag => {
+          <p className="links">
+            { pr.github && <a href={pr.github}>Source code</a> }
+            { pr.livePreview && <a href={pr.livePreview}>Live preview</a> }
+          </p>
+          <div className="tags">{pr.tags.map(tag => {
             const cTag = tags[tag]
 
             return <span className={`tag ${cTag.class}`} onClick={(e) => handleTagClick(e)}>{cTag.name}</span>
-          })}</p>
+          })}</div>
         </VerticalTimelineElement>) }
       </VerticalTimeline>
       { activeTag && <a href="#" className="show-all-projects" onClick={(e) => {

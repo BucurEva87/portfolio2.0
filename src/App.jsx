@@ -34,6 +34,7 @@ function App() {
         <div className="wrapper">
           <h2>Projects</h2>
           <p>Here are a couple of the projects I have been working on:</p>
+          <p>Did you know? You can filter the projects by pressing on a tag.</p>
           <Projects />
         </div>
       </section>
