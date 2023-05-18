@@ -7,7 +7,10 @@ const Header = () => {
 
   const handleToggleBurger = () => {
     setOpen(prevOpen => !prevOpen)
-    window.alert(`Burger is now: ${!isOpen ? 'open' : 'closed'}`)
+  }
+
+  const handleAnchors = () => {
+    if (isOpen) handleToggleBurger()
   }
 
 	return (
@@ -15,10 +18,10 @@ const Header = () => {
       <span className="logo">Eva-Lavinia</span>
   		<header className="primary-header">
   			<nav className="primary-nav">
-  				<ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+  				<ul className={isOpen ? 'open' : null}>
+            <li><a href="#about" onClick={handleAnchors}>About</a></li>
+            <li><a href="#projects" onClick={handleAnchors}>Projects</a></li>
+            <li><a href="#contact" onClick={handleAnchors}>Contact</a></li>
           </ul>
           <Hamburger toggled={isOpen} toggle={handleToggleBurger} />
   			</nav>

@@ -38,7 +38,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section id="contact">
         <div className="wrapper">
           <h2>Get in contact with me!</h2>
           <p>I am always on the lookout for interesting people which I can collaborate with.

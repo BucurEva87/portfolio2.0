@@ -55,7 +55,34 @@
       }
 
       @media (width < $xs) {
-        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: $blackText;
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 12rem;
+        gap: 3rem;
+        translate: 100%;
+        transition: translate 0.4s;
+
+        &.open {
+          translate: 0%;
+        }
+
+        li {
+          width: 100%;
+          text-align: center;
+
+          a {
+            display: block;
+            padding: 1rem;
+          }
+        }
       }
     }
 
@@ -66,6 +93,7 @@
       @media (width < $xs) {
         display: block;
         margin-right: 1rem;
+        z-index: 10000;
       }
     }
   }

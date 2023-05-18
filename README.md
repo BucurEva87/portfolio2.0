@@ -8,6 +8,8 @@
 
 </div> -->
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63aa1aa4-f0d7-4632-b717-70c7f9b705f0/deploy-status)](https://app.netlify.com/sites/eva-lavinia/deploys)
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -45,9 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> To be deployed
-
-<!-- - [Live Demo Link](https://google.com) -->
+- [Live Demo Link](https://eva-lavinia.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
