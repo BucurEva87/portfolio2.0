@@ -1,0 +1,61 @@
+@import './shared/style/_variables.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  position: relative;
+}
+
+section {
+  padding-block: 3rem;
+
+  .wrapper {
+    /* stylelint-disable-next-line csstree/validator */
+    width: min(100% - 3rem, 65ch);
+    margin-inline: auto;
+
+    @media (width >= $md) {
+      width: 50%;
+    }
+
+    h2 {
+      font-size: 2.6rem;
+      padding-block: 1.6rem;
+    }
+
+    p {
+      padding-block: 1.2rem;
+      font-size: 1.4rem;
+      text-align: justify;
+    }
+  }
+
+  &:nth-child(even) {
+    background: $white;
+    color: $blackText;
+  }
+
+  &:nth-child(odd) {
+    background: $black;
+    color: $whiteText;
+  }
+
+  @media (width < $md) {
+    &:first-of-type {
+      padding-top: 7.8rem;
+    }
+  }
+}
