@@ -21,6 +21,12 @@ body {
 
 section {
   padding-block: 3rem;
+  text-align: justify;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.4rem;
 
   .wrapper {
     /* stylelint-disable-next-line csstree/validator */
@@ -32,14 +38,13 @@ section {
     }
 
     h2 {
-      font-size: 2.6rem;
+      font-size: 3.6rem;
       padding-block: 1.6rem;
     }
 
     p {
       padding-block: 1.2rem;
       font-size: 1.4rem;
-      text-align: justify;
     }
   }
 
@@ -53,9 +58,20 @@ section {
     color: $whiteText;
   }
 
-  @media (width < $md) {
-    &:first-of-type {
-      padding-top: 7.8rem;
+  &.hero {
+    height: calc(100vh - 4.5rem);
+
+    h2 {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
+
+    @media (width <= $md) {
+      height: 100vh;
     }
   }
 }
