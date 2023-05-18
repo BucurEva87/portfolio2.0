@@ -42,7 +42,7 @@ function App() {
 
       <section id="contact">
         <div className="wrapper">
-          <h2>Get in contact with me!</h2>
+          <h2>Let's get in touch!</h2>
           <p>I am always on the lookout for interesting people which I can collaborate with.
           Get in touch with me using the form below or the socials links provided!</p>
 
