@@ -9,15 +9,17 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "stylelint": "npx stylelint \"**/*.{css,scss}\"",
-    "eslint": "npx eslint ."
+    "stylelintfix": "npx stylelint \"**/*.{css,scss}\" --fix",
+    "eslint": "npx eslint .",
+    "eslintfix": "npx eslint . --fix"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "hamburger-react": "^2.5.0",
+    "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.62.1",
-    "three": "^0.152.2",
     "vite": "^4.3.2"
   },
   "devDependencies": {
