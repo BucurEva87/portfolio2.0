@@ -1,0 +1,46 @@
+@import '../../shared/style/_variables.scss';
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-style: italic;
+  }
+
+  textarea {
+    min-height: 12rem;
+  }
+
+  button {
+    all: unset;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 0.1rem solid $black;
+    border-radius: 1rem;
+    background-color: $black;
+    color: $whiteText;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0.4rem 0.4rem 0.8rem $black;
+    transition: box-shadow, 0.4s;
+
+    &:hover {
+      box-shadow: 0.4rem 0.4rem 0.2rem $black;
+    }
+  }
+}
