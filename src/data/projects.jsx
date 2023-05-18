@@ -16,6 +16,7 @@ export default [
     livePreview: 'https://bucureva87.github.io/capstone-project/',
     tags: ['javascript', 'html5', 'css3'],
     createdAt: '2022-07-26T10:11:47Z',
+    endedAt: '2022-08-02T10:11:47Z',
     title: 'Author',
     icon: <FaCalendarAlt />
   },
@@ -26,6 +27,7 @@ export default [
     livePreview: 'https://bucureva87.github.io/to-do-list/dist/',
     tags: ['javascript', 'html5', 'css3', 'node'],
     createdAt: '2022-08-11T14:14:15Z',
+    endedAt: '2022-08-18T14:14:15Z',
     title: 'Author',
     icon: <FaClipboardList />
   },
@@ -36,6 +38,7 @@ export default [
     livePreview: 'https://bucureva87.github.io/leaderboard/dist/',
     tags: ['javascript', 'html5', 'css3'],
     createdAt: '2022-08-31T19:07:29Z',
+    endedAt: '2022-09-07T19:07:29Z',
     title: 'Author',
     icon: <FaChalkboard />
   },
@@ -46,6 +49,7 @@ export default [
     livePreview: 'https://math-magicians-eva.netlify.app/',
     tags: ['javascript', 'html5', 'sass', 'react'],
     createdAt: '2022-09-12T08:46:01Z',
+    endedAt: '2022-09-19T08:46:01Z',
     title: 'Author',
     icon: <FaCalculator />
   },
@@ -56,6 +60,7 @@ export default [
     livePreview: null,
     tags: ['javascript', 'html5', 'css3', 'react', 'redux'],
     createdAt: '2019-11-29T18:00:16Z',
+    endedAt: '2019-12-06T18:00:16Z',
     title: 'Author',
     icon: <FaRegChartBar />
   },
@@ -66,6 +71,7 @@ export default [
     livePreview: null,
     tags: ['html5', 'scss', 'ruby', 'rails'],
     createdAt: '2023-02-24T18:26:25Z',
+    endedAt: '2023-03-03T18:26:25Z',
     title: 'Coauthor',
     icon: <FaPencilAlt />
   },
@@ -76,6 +82,7 @@ export default [
     livePreview: null,
     tags: ['html5', 'scss', 'ruby', 'rails'],
     createdAt: '2023-03-13T05:29:12Z',
+    endedAt: '2023-03-20T05:29:12Z',
     title: 'Coauthor',
     icon: <FaUtensils />
   },
@@ -86,6 +93,7 @@ export default [
     livePreview: 'https://deploy-preview-33--space-travellers-hub-desta-eva-peter.netlify.app/',
     tags: ['javascript', 'html5', 'scss'],
     createdAt: '2022-10-03T08:59:54Z',
+    endedAt: '2022-10-10T08:59:54Z',
     title: 'Coauthor',
     icon: <FaRocket />
   },
@@ -96,6 +104,7 @@ export default [
     livePreview: 'https://bucureva87.github.io/cinema/dist/',
     tags: ['javascript', 'html5', 'css3', 'node'],
     createdAt: '2022-09-05T14:03:30Z',
+    endedAt: '2022-09-12T14:03:30Z',
     title: 'Coauthor',
     icon: <FaFilm />
   },
