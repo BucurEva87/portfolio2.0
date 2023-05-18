@@ -21,6 +21,26 @@
       font-size: 1.6rem !important;
     }
   }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .links {
+    a {
+      color: darkblue;
+      text-decoration: none;
+
+      & + a {
+        margin-left: 1rem;
+      }
+
+      &:hover {
+        color: blue;
+      }
+    }
+  }
 }
 
 .show-all-projects {
