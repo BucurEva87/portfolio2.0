@@ -1,6 +1,9 @@
 @import '../../shared/style/_variables.scss';
 
 #projects {
+  background: $black;
+  color: $silver;
+
   .wrapper {
     /* stylelint-disable-next-line csstree/validator */
     width: clamp(60%, 90%, 1440px);

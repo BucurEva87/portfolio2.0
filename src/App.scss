@@ -50,17 +50,153 @@ section {
     }
   }
 
-  &:nth-child(even) {
+  &#projects {
+    position: relative;
+  }
+
+  &#about {
     background: $white;
     color: $black;
   }
 
-  &:nth-child(odd) {
-    background: $black;
-    color: $silver;
+  &#skills {
+    background-color: $silver;
+    color: $black;
+    text-align: center;
+
+    .wrapper {
+      all: unset;
+      /* stylelint-disable-next-line csstree/validator */
+      width: clamp(70%, 80%, 1280px);
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      height: 100%;
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        list-style-type: none;
+        margin-bottom: 2rem;
+        row-gap: 5rem;
+
+        > * {
+          flex-basis: 25%;
+        }
+
+        &:last-child {
+          > * {
+            flex-basis: 33%;
+          }
+        }
+
+        svg {
+          font-size: 5rem;
+        }
+
+        object {
+          width: 5rem;
+        }
+
+        li {
+          &.html5 svg {
+            color: hsl(15, 79%, 52%);
+          }
+
+          &.css3 svg {
+            color: hsl(207, 77%, 40%);
+          }
+
+          &.sass svg {
+            color: hsl(326, 50%, 60%)
+          }
+
+          &.javascript svg {
+            background-color: hsl(0, 0%, 0%);
+            color: hsl(58, 92%, 56%);
+          }
+
+          &.node svg {
+            color: hsl(120, 56%, 39%);
+          }
+
+          &.ruby object {
+            filter: invert(21%) sepia(19%) saturate(7229%) hue-rotate(342deg) brightness(123%) contrast(93%);
+          }
+
+          &.python svg {
+            color: hsl(209, 49%, 47%);
+          }
+
+          &.php svg {
+            color: hsl(232, 25%, 57%);
+          }
+
+          &.react svg {
+            color: hsl(197, 89%, 67%);
+          }
+
+          &.redux object {
+            filter: invert(29%) sepia(99%) saturate(964%) hue-rotate(238deg) brightness(87%) contrast(86%);
+          }
+
+          &.rails object {
+            filter: invert(14%) sepia(61%) saturate(6497%) hue-rotate(3deg) brightness(82%) contrast(122%);
+          }
+
+          &.react-native svg {
+            color: hsl(197, 89%, 67%);
+          }
+
+          &.postgresql object {
+            filter: invert(37%) sepia(18%) saturate(1574%) hue-rotate(165deg) brightness(91%) contrast(87%);
+          }
+
+          &.puppeteer object {
+            filter: invert(31%) sepia(79%) saturate(438%) hue-rotate(165deg) brightness(95%) contrast(83%);
+          }
+
+          &.git svg {
+            color: hsl(10, 87%, 54%);
+          }
+
+          &.jest object {
+            filter: invert(11%) sepia(86%) saturate(5161%) hue-rotate(348deg) brightness(93%) contrast(93%);
+          }
+
+          &.mocha object {
+            filter: invert(44%) sepia(18%) saturate(901%) hue-rotate(345deg) brightness(92%) contrast(95%);
+          }
+
+          svg {
+            transition: color 1s, background-color 1s;
+
+            &:hover {
+              color: #333;
+              background-color: transparent;
+            }
+          }
+
+          object {
+            transition: filter 1s;
+
+            &:hover {
+              filter: invert(20%) sepia(5%) saturate(0%) hue-rotate(206deg) brightness(92%) contrast(97%);
+            }
+          }
+        }
+      }
+    }
   }
 
-  &#projects {
-    position: relative;
+  &#contact {
+    background: $black;
+    color: $silver;
   }
 }
