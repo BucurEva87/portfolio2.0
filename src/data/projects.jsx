@@ -1,12 +1,5 @@
-import { FaCalendarAlt } from "react-icons/fa"
-import { FaClipboardList } from "react-icons/fa"
-import { FaChalkboard } from "react-icons/fa"
-import { FaCalculator } from "react-icons/fa"
-import { FaRegChartBar } from "react-icons/fa"
-import { FaPencilAlt } from "react-icons/fa"
-import { FaUtensils } from "react-icons/fa"
-import { FaRocket } from "react-icons/fa"
-import { FaFilm } from "react-icons/fa"
+import { FaCalendarAlt, FaClipboardList, FaChalkboard, FaCalculator,
+  FaRocket, FaFilm } from "react-icons/fa"
 import spaceTravelersImage from '../assets/image/space-travelers.png'
 import mathMagiciansImage from '../assets/image/math-magicians.png'
 import cinemaImage from '../assets/image/cinema.png'
@@ -63,39 +56,39 @@ export default [
     image: mathMagiciansImage,
     icon: <FaCalculator />
   },
-  {
-    name: 'Covid statistics',
-    github: 'https://github.com/BucurEva87/covid-capstone',
-    description: 'An API-based project centred around the infection and curing rate of SARS-COV-2 globally.',
-    livePreview: null,
-    tags: ['javascript', 'html5', 'css3', 'react', 'redux'],
-    createdAt: '2019-11-29T18:00:16Z',
-    endedAt: '2019-12-06T18:00:16Z',
-    title: 'Author',
-    icon: <FaRegChartBar />
-  },
-  {
-    name: 'Blog App',
-    github: 'https://github.com/BucurEva87/blog-app',
-    description: 'Blog App is an application written in Ruby on Rails that allows users to write posts, leave comments and reaction with likes.',
-    livePreview: null,
-    tags: ['html5', 'scss', 'ruby', 'rails'],
-    createdAt: '2023-02-24T18:26:25Z',
-    endedAt: '2023-03-03T18:26:25Z',
-    title: 'Coauthor',
-    icon: <FaPencilAlt />
-  },
-  {
-    name: 'Recipe App',
-    github: 'https://github.com/BucurEva87/recipe-app',
-    description: 'Recipe App is an application that allows you to keep track of recipes, inventory and ingredients, generate shopping lists for items you lack for a recipe and share your recipes (depending on their public or private status).',
-    livePreview: null,
-    tags: ['html5', 'scss', 'ruby', 'rails'],
-    createdAt: '2023-03-13T05:29:12Z',
-    endedAt: '2023-03-20T05:29:12Z',
-    title: 'Coauthor',
-    icon: <FaUtensils />
-  },
+  // {
+  //   name: 'Covid statistics',
+  //   github: 'https://github.com/BucurEva87/covid-capstone',
+  //   description: 'An API-based project centred around the infection and curing rate of SARS-COV-2 globally.',
+  //   livePreview: null,
+  //   tags: ['javascript', 'html5', 'css3', 'react', 'redux'],
+  //   createdAt: '2019-11-29T18:00:16Z',
+  //   endedAt: '2019-12-06T18:00:16Z',
+  //   title: 'Author',
+  //   icon: <FaRegChartBar />
+  // },
+  // {
+  //   name: 'Blog App',
+  //   github: 'https://github.com/BucurEva87/blog-app',
+  //   description: 'Blog App is an application written in Ruby on Rails that allows users to write posts, leave comments and reaction with likes.',
+  //   livePreview: null,
+  //   tags: ['html5', 'scss', 'ruby', 'rails'],
+  //   createdAt: '2023-02-24T18:26:25Z',
+  //   endedAt: '2023-03-03T18:26:25Z',
+  //   title: 'Coauthor',
+  //   icon: <FaPencilAlt />
+  // },
+  // {
+  //   name: 'Recipe App',
+  //   github: 'https://github.com/BucurEva87/recipe-app',
+  //   description: 'Recipe App is an application that allows you to keep track of recipes, inventory and ingredients, generate shopping lists for items you lack for a recipe and share your recipes (depending on their public or private status).',
+  //   livePreview: null,
+  //   tags: ['html5', 'scss', 'ruby', 'rails'],
+  //   createdAt: '2023-03-13T05:29:12Z',
+  //   endedAt: '2023-03-20T05:29:12Z',
+  //   title: 'Coauthor',
+  //   icon: <FaUtensils />
+  // },
   {
     name: 'Space Travelers Hub',
     github: 'https://github.com/BucurEva87/space-travelers-hub',
