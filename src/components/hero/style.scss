@@ -2,6 +2,8 @@
 
 .hero {
   min-height: calc(100vh - 7rem);
+  background: $white;
+  color: $black;
 
   .wrapper {
     display: flex;
