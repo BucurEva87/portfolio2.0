@@ -1,11 +1,5 @@
 import { FaCalendarAlt, FaClipboardList, FaChalkboard, FaCalculator,
   FaRocket, FaFilm } from "react-icons/fa"
-import spaceTravelersImage from '../assets/image/space-travelers.webp'
-import mathMagiciansImage from '../assets/image/math-magicians.webp'
-import cinemaImage from '../assets/image/cinema.webp'
-import leaderboardImage from '../assets/image/leaderboard.webp'
-import minimalistTodoListImage from '../assets/image/minimalist-todo-list.webp'
-import conferenceImage from '../assets/image/conference.webp'
 
 export default [
   {
@@ -17,7 +11,7 @@ export default [
     createdAt: '2022-07-26T10:11:47Z',
     endedAt: '2022-08-02T10:11:47Z',
     title: 'Author',
-    image: conferenceImage,
+    image: 'conference',
     icon: <FaCalendarAlt />
   },
   {
@@ -29,7 +23,7 @@ export default [
     createdAt: '2022-08-11T14:14:15Z',
     endedAt: '2022-08-18T14:14:15Z',
     title: 'Author',
-    image: minimalistTodoListImage,
+    image: 'minimalist-todo-list',
     icon: <FaClipboardList />
   },
   {
@@ -41,7 +35,7 @@ export default [
     createdAt: '2022-08-31T19:07:29Z',
     endedAt: '2022-09-07T19:07:29Z',
     title: 'Author',
-    image: leaderboardImage,
+    image: 'leaderboard',
     icon: <FaChalkboard />
   },
   {
@@ -53,7 +47,7 @@ export default [
     createdAt: '2022-09-12T08:46:01Z',
     endedAt: '2022-09-19T08:46:01Z',
     title: 'Author',
-    image: mathMagiciansImage,
+    image: 'math-magicians',
     icon: <FaCalculator />
   },
   // {
@@ -98,7 +92,7 @@ export default [
     createdAt: '2022-10-03T08:59:54Z',
     endedAt: '2022-10-10T08:59:54Z',
     title: 'Coauthor',
-    image: spaceTravelersImage,
+    image: 'space-travelers',
     icon: <FaRocket />
   },
   {
@@ -110,7 +104,7 @@ export default [
     createdAt: '2022-09-05T14:03:30Z',
     endedAt: '2022-09-12T14:03:30Z',
     title: 'Coauthor',
-    image: cinemaImage,
+    image: 'cinema',
     icon: <FaFilm />
   },
 ];
