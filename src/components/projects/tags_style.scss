@@ -9,45 +9,5 @@
   margin: 0.3rem 0.3rem 0.3rem 0;
   font-size: 1rem;
   cursor: pointer;
-
-  &.html5 {
-    background-color: hsl(16, 100%, 50%);
-  }
-
-  &.css3 {
-    color: $white;
-    background-color: hsl(216, 92%, 54%);
-  }
-
-  &.scss,
-  &.sass {
-    background-color: hsl(320, 100%, 72%);
-  }
-
-  &.javascript {
-    background-color: hsl(50, 93%, 53%);
-  }
-
-  &.ruby {
-    color: $white;
-    background-color: hsl(356, 61%, 46%);
-  }
-
-  &.rails {
-    color: $white;
-    background-color: hsl(275, 50%, 47%);
-  }
-
-  &.node {
-    background-color: hsl(123, 49%, 47%);
-  }
-
-  &.react {
-    background-color: hsl(195, 89%, 70%);
-  }
-
-  &.redux {
-    color: $white;
-    background-color: hsl(257, 43%, 48%);
-  }
+  background-color: $silver;
 }

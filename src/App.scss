@@ -31,7 +31,7 @@ section {
 
   .wrapper {
     /* stylelint-disable-next-line csstree/validator */
-    width: min(100% - 3rem, 65ch);
+    width: clamp(70%, 80%, 1280px);
     margin-inline: auto;
 
     @media (width >= $md) {
@@ -51,41 +51,15 @@ section {
 
   &:nth-child(even) {
     background: $white;
-    color: $blackText;
+    color: $black;
   }
 
   &:nth-child(odd) {
     background: $black;
-    color: $whiteText;
-  }
-
-  &.hero {
-    height: calc(100vh - 4.5rem);
-
-    h2 {
-      font-size: 2.8rem;
-      text-align: center;
-    }
-
-    p {
-      font-size: 1.8rem;
-    }
-
-    @media (width <= $md) {
-      height: 100vh;
-    }
+    color: $silver;
   }
 
   &#projects {
     position: relative;
-
-    @media (width >= $md) {
-      justify-content: flex-end;
-
-      .wrapper {
-        margin: 0;
-        width: 70%;
-      }
-    }
   }
 }
