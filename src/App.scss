@@ -33,6 +33,7 @@ section {
     /* stylelint-disable-next-line csstree/validator */
     width: clamp(70%, 80%, 1280px);
     margin-inline: auto;
+    overflow-x: hidden;
 
     @media (width >= $md) {
       width: 50%;
