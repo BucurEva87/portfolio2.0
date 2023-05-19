@@ -105,6 +105,23 @@ section {
         }
 
         li {
+          svg {
+            transition: color 1s, background-color 1s;
+
+            &:hover {
+              color: #333;
+              background-color: transparent;
+            }
+          }
+
+          object {
+            transition: filter 1s;
+
+            &:hover {
+              filter: invert(20%) sepia(5%) saturate(0%) hue-rotate(206deg) brightness(92%) contrast(97%);
+            }
+          }
+
           &.html5 svg {
             color: hsl(15, 79%, 52%);
           }
@@ -114,7 +131,7 @@ section {
           }
 
           &.sass svg {
-            color: hsl(326, 50%, 60%)
+            color: hsl(326, 50%, 60%);
           }
 
           &.javascript svg {
@@ -172,23 +189,6 @@ section {
 
           &.mocha object {
             filter: invert(44%) sepia(18%) saturate(901%) hue-rotate(345deg) brightness(92%) contrast(95%);
-          }
-
-          svg {
-            transition: color 1s, background-color 1s;
-
-            &:hover {
-              color: #333;
-              background-color: transparent;
-            }
-          }
-
-          object {
-            transition: filter 1s;
-
-            &:hover {
-              filter: invert(20%) sepia(5%) saturate(0%) hue-rotate(206deg) brightness(92%) contrast(97%);
-            }
           }
         }
       }
