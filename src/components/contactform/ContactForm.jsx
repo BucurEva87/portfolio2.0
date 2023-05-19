@@ -5,7 +5,7 @@ import './style.scss'
 function ContactForm() {
   const [state, handleSubmit] = useForm("myyavapb");
   if (state.succeeded) {
-      return <p>Thanks you for your message! I will get back to you as soon as possible!</p>;
+      return <p>Thank you for your message! I will get back to you as soon as possible!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>
@@ -16,7 +16,7 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
-        placeholder="Just so I can get back to you"
+        placeholder="So that I can get back to you"
         required
       />
       <ValidationError 

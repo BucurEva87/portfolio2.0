@@ -21,13 +21,12 @@ function App() {
       <section id="about">
         <div className="wrapper">
           <h2>About myself</h2>
-          <p>I am a self-taught Full Stack developer with a passion for web development. Proficient 
-          in JavaScript, React, Redux, CSS3, HTML5, Ruby, Ruby on Rails, and SQL, I constantly seek 
-          new technologies and strive to deliver clean, efficient, and maintainable code. I have 
-          experience as a freelancer, developing customized solutions and mentoring junior developers. 
-          With a strong drive for continuous learning, I stay updated with industry best practices and 
-          patterns. Let's collaborate on impactful projects and create remarkable digital experiences 
-          together.</p>
+          <p>I am a self-taught Full Stack developer with a passion for web development. 
+          Proficient in JavaScript, React, Redux, CSS3, HTML5, Ruby, Ruby on Rails, and SQL. 
+          I constantly seek new technologies and strive to deliver clean, efficient, and maintainable code. 
+          I am experienced as a freelancer, developing customized solutions and mentoring junior developers. 
+          With a strong drive for continuous learning, I stay updated with industry best practices and patterns. 
+          Let's collaborate on impactful projects and create remarkable digital experiences together!</p>
         </div>
       </section>
 
@@ -43,7 +42,7 @@ function App() {
       <section id="contact">
         <div className="wrapper">
           <h2>Let's get in touch!</h2>
-          <p>I am always on the lookout for interesting people which I can collaborate with.
+          <p>I am always looking for interesting people which I can collaborate with.
           Get in touch with me using the form below or the socials links provided!</p>
 
           <ContactForm />
