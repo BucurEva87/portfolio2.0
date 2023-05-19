@@ -77,6 +77,7 @@ section {
 
       h3 {
         font-size: 2rem;
+        rotate: -6deg;
       }
 
       ul {
@@ -111,7 +112,7 @@ section {
             transition: color 1s, background-color 1s;
 
             &:hover {
-              color: #333;
+              color: #333 !important;
               background-color: transparent;
             }
           }
@@ -120,7 +121,7 @@ section {
             transition: filter 1s;
 
             &:hover {
-              filter: invert(20%) sepia(5%) saturate(0%) hue-rotate(206deg) brightness(92%) contrast(97%);
+              filter: invert(20%) sepia(5%) saturate(0%) hue-rotate(206deg) brightness(92%) contrast(97%) !important;
             }
           }
 

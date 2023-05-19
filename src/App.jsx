@@ -83,7 +83,7 @@ function App() {
           <h3>Frameworks</h3>
           <ul>
             <li className="react">
-              <FaReact />
+              <FaReact alt="React" />
               <h4>React.js</h4>
             </li>
             <li className="redux">
