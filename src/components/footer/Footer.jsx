@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="mailto:bucur.eva87@gmail.com?subject=Hello%2C%20Eva!%20Nice%20to%20meet%20you!" target="_new"><FaEnvelopeSquare /></a>
       </div>
 
-      <a href="https://docs.google.com/document/d/1rfCM6QNUWPXzbuciKGV1rV46BMCFut6KcRjLnc43L0Y/edit" target="_new">Download my Resume</a>
+      <a href="./Eva_Lavinia_Resume.pdf" download="eva-lavinia_bucur_resume.pdf">Download my Resume</a>
     </footer>
   )
 }
