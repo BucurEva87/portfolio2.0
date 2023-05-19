@@ -68,7 +68,7 @@ function App() {
               <h4>Node.js</h4>
             </li>
             <li className="ruby">
-              <object data={Ruby} />
+              <object data={Ruby} alt="Ruby" />
               <h4>Ruby</h4>
             </li>
             <li className="python">
@@ -83,15 +83,15 @@ function App() {
           <h3>Frameworks</h3>
           <ul>
             <li className="react">
-              <FaReact alt="React" />
+              <FaReact />
               <h4>React.js</h4>
             </li>
             <li className="redux">
-              <object data={Redux} />
+              <object data={Redux} alt="Redux" />
               <h4>Redux.js</h4>
             </li>
             <li className="rails">
-              <object data={Rails} />
+              <object data={Rails} alt="Ruby on Rails" />
               <h4>Ruby on Rails</h4>
             </li>
             <li className="react-native">
@@ -102,15 +102,15 @@ function App() {
           <h3>Tools</h3>
           <ul>
             <li className="three">
-              <object data={Three} />
+              <object data={Three} alt="Three.js" />
               <h4>Three.js</h4>
             </li>
             <li className="postgresql">
-              <object data={PostgreSQL} />
+              <object data={PostgreSQL} alt="PostgreSQL" />
               <h4>PostgreSQL</h4>
             </li>
             <li className="puppeteer">
-              <object data={Puppeteer} />
+              <object data={Puppeteer} alt="Puppeteer" />
               <h4>Puppeteer</h4>
             </li>
             <li className="git">
@@ -118,11 +118,11 @@ function App() {
               <h4>Git</h4>
             </li>
             <li className="jest">
-              <object data={Jest} />
+              <object data={Jest} alt="Jest" />
               <h4>Jest</h4>
             </li>
             <li className="mocha">
-              <object data={Mocha} />
+              <object data={Mocha} alt="Mocha" />
               <h4>Mocha</h4>
             </li>
           </ul>
