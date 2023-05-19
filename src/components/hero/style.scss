@@ -31,11 +31,10 @@
       font-size: 2.4rem;
       border-radius: 1rem;
       box-shadow: 0.4rem 0.4rem 0.4rem lighten($black, 40%);
-      transition: translate 0.4s, box-shadow 0.3s;
+      transition: box-shadow 0.3s;
       cursor: pointer;
 
       &:hover {
-        translate: 0.2rem 0.2rem;
         box-shadow: 0.2rem 0.2rem 0.2rem lighten($black, 40%);
       }
     }
