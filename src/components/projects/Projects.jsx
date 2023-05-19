@@ -57,17 +57,17 @@ const Projects = () => {
             </picture>
           </div> }          
           <p className="links">
-            { pr.github && <a href={pr.github} target="_new">Source code</a> }
-            { pr.livePreview && <a href={pr.livePreview} target="_new">Live preview</a> }
+            { pr.github && <a href={pr.github} aria-label={`Check out the source code of ${pr.name} project on GitHub`} target="_new">Source code</a> }
+            { pr.livePreview && <a href={pr.livePreview} aria-label={`Check out a live working version of ${pr.name} project`} target="_new">Live preview</a> }
           </p>
           <div className="tags">{pr.tags.map(tag => {
             const cTag = tags[tag]
 
-            return <span key={cTag.name} className={`tag ${cTag.class}`} onClick={(e) => handleTagClick(e)}>{cTag.name}</span>
+            return <span key={cTag.name} className={`tag ${cTag.class}`} aria-label={`Filter only the projects containing the ${cTag.name} tag`} onClick={(e) => handleTagClick(e)}>{cTag.name}</span>
           })}</div>
         </VerticalTimelineElement>) }
       </VerticalTimeline>
-      { activeTag && <a href="#" className="show-all-projects" onClick={(e) => {
+      { activeTag && <a href="#" className="show-all-projects" aria-label="Show all projects" onClick={(e) => {
         e.preventDefault()
 
         setActiveTag(null)
