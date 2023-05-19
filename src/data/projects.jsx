@@ -1,11 +1,11 @@
 import { FaCalendarAlt, FaClipboardList, FaChalkboard, FaCalculator,
   FaRocket, FaFilm } from "react-icons/fa"
-import spaceTravelersImage from '../assets/image/space-travelers.png'
-import mathMagiciansImage from '../assets/image/math-magicians.png'
-import cinemaImage from '../assets/image/cinema.png'
-import leaderboardImage from '../assets/image/leaderboard.png'
-import minimalistTodoListImage from '../assets/image/minimalist-todo-list.png'
-import conferenceImage from '../assets/image/conference.png'
+import spaceTravelersImage from '../assets/image/space-travelers.webp'
+import mathMagiciansImage from '../assets/image/math-magicians.webp'
+import cinemaImage from '../assets/image/cinema.webp'
+import leaderboardImage from '../assets/image/leaderboard.webp'
+import minimalistTodoListImage from '../assets/image/minimalist-todo-list.webp'
+import conferenceImage from '../assets/image/conference.webp'
 
 export default [
   {
