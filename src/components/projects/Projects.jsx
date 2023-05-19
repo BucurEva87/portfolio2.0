@@ -17,7 +17,7 @@ const Projects = () => {
     borderRadius: '1.6rem'
   }
   const arrowStyle = {
-    borderRight: '7px solid  hsl(285deg, 48%, 71%)'
+    borderRight: '7px solid rgb(33, 150, 243)'
   }
   const iconStyle = {
     background: '#000',
