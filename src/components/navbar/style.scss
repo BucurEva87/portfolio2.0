@@ -1,28 +1,23 @@
 @import '../../shared/style/_variables.scss';
 
-.logo {
-  font-size: 3rem;
-  margin: 0 1rem 1rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  position: absolute;
-  color: $white;
-  z-index: 100;
-
-  @media (width >= $md) {
-    position: sticky;
-    top: 0.5rem;
-    mix-blend-mode: difference;
-  }
-}
-
 .primary-header {
-  position: absolute;
-  display: block;
+  position: sticky;
   top: 0;
-  right: 0;
   width: 100%;
   background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+  color: $white;
+  z-index: 1000;
+
+  .logo {
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
 
   .primary-nav {
     height: 4.5rem;
@@ -33,10 +28,8 @@
     ul {
       display: flex;
       list-style-type: none;
-      width: 60%;
       justify-content: space-around;
       align-items: center;
-      margin-top: 2.4rem;
 
       li {
         a {
@@ -61,7 +54,7 @@
         margin-top: 0;
         width: 70%;
         height: 100vh;
-        background-color: $blackText;
+        background-color: $black;
         z-index: 1000;
         flex-direction: column;
         justify-content: flex-start;

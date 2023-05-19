@@ -12,8 +12,8 @@ const Projects = () => {
   const filteredProjects = activeTag ? projects.filter(pr => pr.tags.includes(activeTag)) : projects
 
   const projectStyle = {
-    background: 'hsl(285deg, 48%, 71%)',
-    color: '#000',
+    background: 'rgb(33, 150, 243)',
+    color: '#040403',
     borderRadius: '1.6rem'
   }
   const arrowStyle = {
@@ -48,9 +48,12 @@ const Projects = () => {
           <p>
             {pr.description}
           </p>
+          { pr.image && <div className="image">
+            <img src={pr.image} alt={`${pr.name} snapshot`} />
+          </div> }          
           <p className="links">
-            { pr.github && <a href={pr.github}>Source code</a> }
-            { pr.livePreview && <a href={pr.livePreview}>Live preview</a> }
+            { pr.github && <a href={pr.github} target="_new">Source code</a> }
+            { pr.livePreview && <a href={pr.livePreview} target="_new">Live preview</a> }
           </p>
           <div className="tags">{pr.tags.map(tag => {
             const cTag = tags[tag]

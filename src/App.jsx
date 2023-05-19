@@ -1,6 +1,5 @@
-import Header from './components/header/Header'
-import Lottie from 'lottie-react'
-import animationData from './assets/woman-sitting-on-the-phone.json'
+import Navbar from './components/navbar/Navbar'
+import Hero from './components/hero/Hero'
 import Projects from './components/projects/Projects'
 import ContactForm from './components/contactform/ContactForm'
 import Footer from './components/footer/Footer'
@@ -9,12 +8,15 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
+      <Hero />
 
-      <section className="hero">
+      <section id="projects">
         <div className="wrapper">
-          <h2>Hello! I am Eva-Lavinia Bucur!</h2>
-          <Lottie animationData={animationData} style={{ maxWidth: '50rem', margin: 'auto' }} />
+          <h2>Projects</h2>
+          <p>Here are a couple of the projects I have been working on:</p>
+          <p>Did you know? You can filter the projects by pressing on a tag.</p>
+          <Projects />
         </div>
       </section>
 
@@ -27,15 +29,6 @@ function App() {
           I am experienced as a freelancer, developing customized solutions and mentoring junior developers. 
           With a strong drive for continuous learning, I stay updated with industry best practices and patterns. 
           Let's collaborate on impactful projects and create remarkable digital experiences together!</p>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div className="wrapper">
-          <h2>Projects</h2>
-          <p>Here are a couple of the projects I have been working on:</p>
-          <p>Did you know? You can filter the projects by pressing on a tag.</p>
-          <Projects />
         </div>
       </section>
 

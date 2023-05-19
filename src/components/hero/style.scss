@@ -1,0 +1,41 @@
+@import '../../shared/style/_variables.scss';
+
+.hero {
+  min-height: calc(100vh - 7rem);
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+
+    h2 {
+      /* stylelint-disable-next-line csstree/validator */
+      font-size: clamp(2.8rem, 5vw, 3.2rem);
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
+
+    button {
+      all: unset;
+      background-color: $black;
+      padding: 2rem;
+      width: clamp(250px, 50%, $xs);
+      text-align: center;
+      color: $silver;
+      font-size: 2.4rem;
+      border-radius: 1rem;
+      box-shadow: 0.4rem 0.4rem 0.4rem lighten($black, 40%);
+      transition: translate 0.4s, box-shadow 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        translate: 0.2rem 0.2rem;
+        box-shadow: 0.2rem 0.2rem 0.2rem lighten($black, 40%);
+      }
+    }
+  }
+}
