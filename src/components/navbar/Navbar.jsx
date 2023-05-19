@@ -18,8 +18,9 @@ const Navbar = () => {
       <span className="logo">Eva-Lavinia</span>
       <nav className="primary-nav">
         <ul className={isOpen ? 'open' : null}>
-          <li><a href="#about" onClick={handleAnchors}>About</a></li>
           <li><a href="#projects" onClick={handleAnchors}>Projects</a></li>
+          <li><a href="#about" onClick={handleAnchors}>About</a></li>
+          <li><a href="#skills" onClick={handleAnchors}>Skills</a></li>
           <li><a href="#contact" onClick={handleAnchors}>Contact</a></li>
         </ul>
         <Hamburger toggled={isOpen} toggle={handleToggleBurger} />
