@@ -36,6 +36,7 @@ const Projects = () => {
     <>
       <VerticalTimeline>
         { filteredProjects.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)).map(pr => <VerticalTimelineElement
+          key={pr.name}
           className="vertical-timeline-element--work"
           contentArrowStyle={arrowStyle}
           contentStyle={projectStyle}
@@ -49,7 +50,11 @@ const Projects = () => {
             {pr.description}
           </p>
           { pr.image && <div className="image">
-            <img src={pr.image} alt={`${pr.name} snapshot`} />
+            <picture>
+              <source media="(max-width: 768px)" srcSet={`./image/${pr.image}_small.webp`} />
+              <source media="(max-width: 960px)" srcSet={`./image/${pr.image}_medium.webp`} />
+              <img src={`./image/${pr.image}_large.webp`} alt={`${pr.name} snapshot`} />
+            </picture>
           </div> }          
           <p className="links">
             { pr.github && <a href={pr.github} target="_new">Source code</a> }
@@ -58,7 +63,7 @@ const Projects = () => {
           <div className="tags">{pr.tags.map(tag => {
             const cTag = tags[tag]
 
-            return <span className={`tag ${cTag.class}`} onClick={(e) => handleTagClick(e)}>{cTag.name}</span>
+            return <span key={cTag.name} className={`tag ${cTag.class}`} onClick={(e) => handleTagClick(e)}>{cTag.name}</span>
           })}</div>
         </VerticalTimelineElement>) }
       </VerticalTimeline>
