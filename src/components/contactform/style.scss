@@ -39,9 +39,10 @@ form {
     cursor: pointer;
     box-shadow: 0.4rem 0.4rem 0.4rem $silver;
     transition: box-shadow, translate 0.6s;
+    padding-bottom: 1rem;
 
     &:hover {
-      translate: 0.2rem 0.2rem;
+      // translate: 0.2rem 0.2rem;
       box-shadow: 0.2rem 0.2rem 0.2rem $silver;
     }
   }
